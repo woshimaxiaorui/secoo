@@ -1,0 +1,66 @@
+*{margin: 0;padding: 0;}
+li{list-style: none;}
+a{text-decoration: none;}
+img{display: block;}
+body, html, div, dl, dt, dd, ul, li, ol, h1, h2, h3, h4, h5, h6, form, fieldset, input, textarea, p, th, td, a, img, span {
+    font-family: PingFangSC-Regular, Microsoft YaHei,tahoma,arial,Hiragino Sans GB;
+}
+
+.header{height: 180px;background: #FFFFFF;}
+
+.htop{width: 1200px;height: 130px;margin: 0 auto;position: relative;overflow: hidden;}
+.htop_left{overflow: hidden;width: 172px;margin-top: 50px;float: left;}
+.htop_left p{float: left;font-size: 12px;line-height: 31px;padding: 0 20px;}
+.langure{border-right: 1px solid black; height: 31px;}
+.langure:hover{color: #ffb81c;}
+
+.hlogo{width: 190px;height: 80px;margin: 0 auto;position: absolute;margin: auto;left: 0;top:0;right: 0;bottom: 0;}
+.hlogo a{display: block;width: 190px;height: 80px; background:url(../img/logo.jpg);}
+
+
+.htop_right{float: right;}
+.htop_right a{font-size: 12px;float: left;height: 31px;line-height: 31px;margin-top: 50px;border-right: 1px solid black; color: #000000;padding:0 17px;}
+.htop_right a:last-child{border: none;}
+.htop_right a:hover{color: #ffb81c;}
+
+.htop_right a .buycar{background: url(../img/icon/shoutidai.png) no-repeat center;display:block;width: 20px;height: 20px;background-size: 36px;margin-top: 4px;}
+
+
+.nav_bar{height: 50px;background: #000000;}
+.nav{width: 1200px;height: 50px;margin: 0 auto;}
+.nav ul{float: left;}
+.nav ul li{float: left;color: #ffb81c;line-height: 50px;padding: 0 25px;font-size: 14px;}
+.nav ul li:hover{color: #FFFFFF;}
+
+.sousuo{float: right;width: 100px;line-height: 50px;}
+.sousuo a {color: #ffb81c;}
+
+
+
+.nflooter{height: 490px;padding-top: 40px;background: #ffb81c;}
+.nflooter .ncontainer{width:1200px;height: 364px;margin: 0 auto;}
+.ncontainer .service-information{width: 325px;height: 182px;}
+.footer-links {overflow: hidden;}
+.footer-links li{float: left;}
+.service-information{width: 325px;height: 182px;}
+.service-information h4{margin-bottom: 26px;}
+.service-information .clearfix{width: 325px;height: 182px;}
+.service-information .clearfix li{width: 115px;height: 33px;}
+.service-information .clearfix li a{color: #000000;}
+.footer-links .public-media{width: 550px;height: 264px;}
+.footer-links .public-media h4{text-align: center;}
+.footer-links .public-media .footer-logo{width: 550px;height: 240px;background: url(../img/footer-logo.png);position: relative;}
+.footer-links .public-media .footer-logo .weibo{position: absolute;top: 107px;left: 104px;height: 20px;cursor: pointer;}
+.footer-links .public-media .footer-logo .weixin{position: absolute;top: 107px;left:418px;height: 20px;cursor: pointer;}
+
+.footer-links .our-app{float: right;position: relative;}
+.footer-links .our-app h4{margin-bottom: 26px;}
+.footer-links .our-app li{width: 100%;height: 33px;}
+.footer-links .our-app li a{color: #000000;}
+.footer-links .our-app li .erweima{display: none;position: absolute;}
+.footer-links .our-app li:hover .erweima{display: block; left: -170px;top: 14px;}
+
+.footer-info{font-size: 14px;margin-top: 40px;width: 1200px;height: 60px;}
+.footer-info p{margin-bottom: 20px;}
+.footer-info p span{margin-right: 40px;}
+.footer-info .footer-info-imgs img{float: left;margin-right:20px ;width: 108px;height: 40px;}
