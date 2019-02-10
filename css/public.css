@@ -17,6 +17,7 @@ body, html, div, dl, dt, dd, ul, li, ol, h1, h2, h3, h4, h5, h6, form, fieldset,
 .hlogo{width: 190px;height: 80px;margin: 0 auto;position: absolute;margin: auto;left: 0;top:0;right: 0;bottom: 0;}
 .hlogo a{display: block;width: 190px;height: 80px; background:url(../img/logo.jpg);}
 
+.htop_right .loginShow{display: none; }
 
 .htop_right{float: right;}
 .htop_right a{font-size: 12px;float: left;height: 31px;line-height: 31px;margin-top: 50px;border-right: 1px solid black; color: #000000;padding:0 17px;}
